@@ -13,12 +13,12 @@
   <div class ="calculatorShell">
     <div class = "logo">THOR'S CALCULATOR⚡</div>
     <div class = "screen">
-      <div class = "history">123+958</div>
-      <div class = "liveText">98812457</div>
+      <div class = "history">0</div>
+      <div class = "liveText">0</div>
     </div>
     <div class ="buttonsSection">
       <div class = "row1">
-        <button class ="whiteButton button ">AC</button>
+        <button class ="whiteButton button " id="clearAllButton">AC</button>
         <button class ="darkGreyButton button">C</button>
         <button class ="darkGreyButton button">-/+</button>
         <button class = "orangeButton button">÷</button>
@@ -36,10 +36,10 @@
         <button class = "orangeButton button">-</button>
       </div>
       <div class = "row4">
-        <button class ="greyButton button" id = "digit1">1</button>
-        <button class ="greyButton button digitButton">2</button>
+        <button class ="greyButton button digitButton" id = "digit1">1</button>
+        <button class ="greyButton button digitButton" id = "digit2">2</button>
         <button class ="greyButton button digitButton">3</button>
-        <button class = "orangeButton button">+</button>
+        <button class = "orangeButton button" id="addButton">+</button>
       </div>
     
   
@@ -47,7 +47,7 @@
         <button class ="greyButton blankButton button">⚡ </button>
         <button class ="greyButton button digitButton">0</button>
         <button class ="greyButton button">.</button>
-        <button class = "whiteButton button">=</button>
+        <button class = "whiteButton button" id ="equalButton">=</button>
       </div>
     
     </div>
