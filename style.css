@@ -1,0 +1,124 @@
+body{
+  background-color:#434343;
+  display:flex;
+  justify-content:center;
+  margin-top:100px;
+
+}
+
+.calculatorShell{
+  background-color:#2a2a2a;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  padding: 20px 20px;
+  border-radius:15px;
+ 
+}
+
+.logo{
+  color:white;
+  font-family:sans-serif;
+  font-weight:700;
+  font-size:11px;
+}
+
+.screen{
+  background-color:black;
+  height:123px;
+  width:332px;
+  border-radius:8px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-end;
+  padding:10px 20px;
+}
+
+.history{
+  color:#949494;
+  font-family:sans-serif;
+  
+}
+
+.liveText{
+  color:white;
+  font-family:sans-serif;
+  font-weight:700;
+  font-size:55px;
+}
+
+.row1,.row2, .row3, .row4, .row5{
+  display:flex;
+  gap:10px;
+}
+
+.buttonsSection{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.button{
+  width:85px;
+  height:65px;
+  border-radius:8px;
+  border:none;
+  font-size:40px;
+  font-family:sans-serif;
+  font-weight:700;
+  transition: transform 0.2s; 
+  cursor:pointer;
+}
+
+.greyButton{
+  background-color:#434343;
+  color:#949494;
+  transition:ease 0.2s;
+}
+
+.darkGreyButton{
+  background-color:#141414;
+  color:#949494;
+  transition:ease 0.2s;
+}
+
+.darkGreyButton:hover{
+  background-color:black;
+}
+
+.whiteButton{
+  transition:ease 0.2s;
+}
+
+.orangeButton{
+  background-color:#FFA33B;
+  color:white;
+  transition: ease 0.2s;
+}
+
+.button:hover{
+  transform: scale(0.90);
+}
+
+.greyButton:hover{
+  background-color:#1f1f1f;
+}
+
+
+.whiteButton:hover{
+  background-color:#c5c5c5;
+}
+
+.orangeButton:hover{
+  background-color:#CA730F;
+}
+
+.blankButton{
+  cursor:default;
+}
+
+.blankButton:hover{
+  transform: scale(1);
+  background-color:#434343;
+}
