@@ -114,11 +114,4 @@ body{
   background-color:#CA730F;
 }
 
-.blankButton{
-  cursor:default;
-}
 
-.blankButton:hover{
-  transform: scale(1);
-  background-color:#434343;
-}
