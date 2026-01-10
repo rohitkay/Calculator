@@ -284,8 +284,13 @@ function updateScreen(value){
     value = value.toString();
     if (value.length >= 12 ){
       //value = "Too Long";
+      if (value.indexOf(".")!= -1){
+        value = value.slice(0,11);
+      }
+      else{
+        value = "Too Long";
+      }
       
-      value = value.slice(0,11);
     }
     screenLive.textContent = value;
     
